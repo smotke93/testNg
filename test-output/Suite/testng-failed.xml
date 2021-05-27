@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="listenersTopic.listenersLearning"/>
+  </listeners>
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="testSuite1.UserStory2">
+        <methods>
+          <include name="afterClass"/>
+          <include name="beforeClass"/>
+          <include name="us2Test2"/>
+          <include name="us2Test1"/>
+        </methods>
+      </class> <!-- testSuite1.UserStory2 -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

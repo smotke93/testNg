@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="1" total="12" passed="11">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="87" started-at="2021-05-27T20:10:49Z" finished-at="2021-05-27T20:10:50Z">
+    <groups>
+      <group name="SMOKE">
+        <method signature="UserStory1.us1Test2()[pri:0, instance:testSuite1.UserStory1@51565ec2]" name="us1Test2" class="testSuite1.UserStory1"/>
+        <method signature="UserStory3.MobileTestUs3Test1()[pri:0, instance:testSuite2.UserStory3@7823a2f9]" name="MobileTestUs3Test1" class="testSuite2.UserStory3"/>
+      </group> <!-- SMOKE -->
+    </groups>
+    <test name="Test" duration-ms="87" started-at="2021-05-27T20:10:49Z" finished-at="2021-05-27T20:10:50Z">
+      <class name="testSuite2.UserStory3">
+        <test-method status="PASS" signature="MobileTestUs2Test2()[pri:0, instance:testSuite2.UserStory3@7823a2f9]" name="MobileTestUs2Test2" duration-ms="2" started-at="2021-05-27T20:10:49Z" finished-at="2021-05-27T20:10:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MobileTestUs2Test2 -->
+        <test-method status="PASS" signature="MobileTestUs3Test1()[pri:0, instance:testSuite2.UserStory3@7823a2f9]" name="MobileTestUs3Test1" duration-ms="2" started-at="2021-05-27T20:10:49Z" finished-at="2021-05-27T20:10:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MobileTestUs3Test1 -->
+        <test-method status="PASS" signature="us3Test1()[pri:0, instance:testSuite2.UserStory3@7823a2f9]" name="us3Test1" duration-ms="1" started-at="2021-05-27T20:10:49Z" finished-at="2021-05-27T20:10:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- us3Test1 -->
+        <test-method status="PASS" signature="us3Test2()[pri:0, instance:testSuite2.UserStory3@7823a2f9]" name="us3Test2" duration-ms="1" started-at="2021-05-27T20:10:49Z" finished-at="2021-05-27T20:10:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- us3Test2 -->
+      </class> <!-- testSuite2.UserStory3 -->
+      <class name="testSuite1.UserStory1">
+        <test-method status="PASS" signature="us1Test2()[pri:0, instance:testSuite1.UserStory1@51565ec2]" name="us1Test2" duration-ms="5" started-at="2021-05-27T20:10:49Z" finished-at="2021-05-27T20:10:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- us1Test2 -->
+        <test-method status="PASS" signature="us1Test4()[pri:0, instance:testSuite1.UserStory1@51565ec2]" name="us1Test4" duration-ms="6" started-at="2021-05-27T20:10:49Z" finished-at="2021-05-27T20:10:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- us1Test4 -->
+        <test-method status="PASS" signature="us1Test1()[pri:0, instance:testSuite1.UserStory1@51565ec2]" name="us1Test1" duration-ms="1" started-at="2021-05-27T20:10:50Z" depends-on-methods="testSuite1.UserStory1.us1Test4, testSuite1.UserStory1.us1Test2" finished-at="2021-05-27T20:10:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- us1Test1 -->
+      </class> <!-- testSuite1.UserStory1 -->
+      <class name="testSuite2.UserStory4">
+        <test-method status="PASS" signature="beforeSuiteSetup()[pri:0, instance:testSuite2.UserStory4@675d3402]" name="beforeSuiteSetup" is-config="true" duration-ms="13" started-at="2021-05-27T20:10:49Z" finished-at="2021-05-27T20:10:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuiteSetup -->
+        <test-method status="PASS" signature="TestSetup()[pri:0, instance:testSuite2.UserStory4@675d3402]" name="TestSetup" is-config="true" duration-ms="0" started-at="2021-05-27T20:10:49Z" finished-at="2021-05-27T20:10:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestSetup -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testSuite2.UserStory4@675d3402]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2021-05-27T20:10:49Z" finished-at="2021-05-27T20:10:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="MobileTestUs4Test1()[pri:0, instance:testSuite2.UserStory4@675d3402]" name="MobileTestUs4Test1" duration-ms="1" started-at="2021-05-27T20:10:49Z" finished-at="2021-05-27T20:10:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MobileTestUs4Test1 -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testSuite2.UserStory4@675d3402]" name="afterMethod" is-config="true" duration-ms="1" started-at="2021-05-27T20:10:49Z" finished-at="2021-05-27T20:10:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testSuite2.UserStory4@675d3402]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2021-05-27T20:10:49Z" finished-at="2021-05-27T20:10:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="MobileTestUs4Test2()[pri:0, instance:testSuite2.UserStory4@675d3402]" name="MobileTestUs4Test2" duration-ms="2" started-at="2021-05-27T20:10:49Z" finished-at="2021-05-27T20:10:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MobileTestUs4Test2 -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testSuite2.UserStory4@675d3402]" name="afterMethod" is-config="true" duration-ms="0" started-at="2021-05-27T20:10:50Z" finished-at="2021-05-27T20:10:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testSuite2.UserStory4@675d3402]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2021-05-27T20:10:50Z" finished-at="2021-05-27T20:10:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="us4Test1()[pri:0, instance:testSuite2.UserStory4@675d3402]" name="us4Test1" duration-ms="2" started-at="2021-05-27T20:10:50Z" finished-at="2021-05-27T20:10:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- us4Test1 -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testSuite2.UserStory4@675d3402]" name="afterMethod" is-config="true" duration-ms="0" started-at="2021-05-27T20:10:50Z" finished-at="2021-05-27T20:10:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testSuite2.UserStory4@675d3402]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2021-05-27T20:10:50Z" finished-at="2021-05-27T20:10:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="us4Test2()[pri:0, instance:testSuite2.UserStory4@675d3402]" name="us4Test2" duration-ms="2" started-at="2021-05-27T20:10:50Z" finished-at="2021-05-27T20:10:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- us4Test2 -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testSuite2.UserStory4@675d3402]" name="afterMethod" is-config="true" duration-ms="0" started-at="2021-05-27T20:10:50Z" finished-at="2021-05-27T20:10:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="TestCleanup()[pri:0, instance:testSuite2.UserStory4@675d3402]" name="TestCleanup" is-config="true" duration-ms="0" started-at="2021-05-27T20:10:50Z" finished-at="2021-05-27T20:10:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCleanup -->
+        <test-method status="PASS" signature="afterSuiteSetup()[pri:0, instance:testSuite2.UserStory4@675d3402]" name="afterSuiteSetup" is-config="true" duration-ms="0" started-at="2021-05-27T20:10:50Z" finished-at="2021-05-27T20:10:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuiteSetup -->
+      </class> <!-- testSuite2.UserStory4 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

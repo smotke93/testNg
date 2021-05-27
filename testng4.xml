@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="IncludeTest">
+ 
+ <test name="include test case">
+  	<classes>
+	  	<class name="testSuite1.UserStory1">
+	  		<methods>
+	  			<include name="us1Test2" />
+	  			<include name="us1Test4" />
+	  		</methods>
+	  	</class>
+  	</classes>
+ </test>
+   
+</suite> <!-- Suite -->

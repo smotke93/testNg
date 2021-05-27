@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+ 
+ <parameter name="URL4SuiteLevel" value="Test Suite Level Parameter"/>
+ 
+  <test thread-count="5" name="Parameterisation"> 
+ <parameter name="URL4TestLevel" value="Test Case Level Parameter"/>
+ <parameter name="URL4TestLevelAPIKey" value="112233455"/>
+    <classes>
+      <class name="testSuite1.UserStory2"/>
+    </classes>
+  </test> <!-- Test -->
+  
+</suite> <!-- Suite -->
